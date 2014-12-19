@@ -7,11 +7,11 @@ require "searchable/version"
 Gem::Specification.new do |s|
   s.name        = "searchable"
   s.version     = Searchable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Searchable."
-  s.description = "TODO: Description of Searchable."
+  s.authors     = ["Carmelo Cuenca"]
+  s.email       = ["carmelocuenca@hotmail.com"]
+  s.homepage    = "https://github.com/carmelocuenca/searchable"
+  s.summary     = "Un plugin para Rails 4 que incluye utilidades de búsqueda que extiende la clase ActiveRecord::Base"
+  s.description = "Un plugin para Rails 4 que incluye utilidades de búsqueda que extiende la clase ActiveRecord::Base"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.1.8"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "faker"
 end
